@@ -1,0 +1,123 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\000031}}
+.scroll-content {
+  background-color: #000;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\000035}}
+.unlock-button {
+  display: block;
+  margin: 10px auto;
+  background-image: url("/images/unlock-now.png");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 28px;
+  background-color: transparent;
+  border: none;
+  min-height: inherit;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000317}}
+.unlock-button:after {
+  content: '';
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000321}}
+.time-container {
+  color: #FFFFFF;
+  font-family: "Arial";
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000329}}
+.time-container .time-counting {
+  color: #787878;
+  font-size: 18px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000335}}
+.footer {
+  color: #FFFFFF;
+  font-family: "Arial";
+  font-size: 11px;
+  font-weight: 400;
+  margin: 5px 0 0 0;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000343}}
+.footer strong {
+  font-size: 13px;
+  font-style: italic;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000349}}
+#wheel {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000354}}
+#wheel canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000363}}
+.wheel-alert-temp .popup {
+  background: none;
+  width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000367}}
+.wheel-alert-temp .popup .popup-head {
+  display: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000371}}
+.wheel-alert-temp .popup .popup-body {
+  padding: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000374}}
+.wheel-alert-temp .popup .popup-body img {
+  max-width: 300px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000379}}
+.wheel-alert-temp .popup .popup-buttons {
+  padding: 0;
+  position: relative;
+  top: -85px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000384}}
+.wheel-alert-temp .popup .popup-buttons button {
+  background: url(images/enter-button.png) no-repeat;
+  border: none;
+  margin: 0 auto;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\0000395}}
+form .row .col:first-child {
+  color: #FFF;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\00003101}}
+.item-input {
+  background: transparent;
+  border: none;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\00003105}}
+.item-input input {
+  border: 1px solid gray;
+  color: #FFF;
+  padding: 0 7px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\00003110}}
+.item-input input.ng-invalid {
+  border: 1px solid red;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/D\:\/Projects\/PRIZE\%20Wheel\/can_fork\/prizewheelmobilewebappfork\/app\/styles\/main\.scss}line{font-family:\00003115}}
+.form-text {
+  color: #FFF;
+}

@@ -1,0 +1,14 @@
+#wheelCanvas {
+  max-width: 100%;
+}
+
+
+.item-input {
+  border: none;
+}
+input {
+  border: 1px solid gray;
+}
+input.ng-invalid {
+  border: 1px solid red;
+}

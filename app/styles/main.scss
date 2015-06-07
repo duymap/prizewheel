@@ -1,0 +1,124 @@
+.scroll-content{
+  background-color: #000;
+}
+
+.unlock-button {
+  display: block;
+  margin: 10px auto;
+  background-image: url("/images/unlock-now.png");
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 28px;
+  background-color: transparent;
+  border: none;
+  min-height: inherit;
+}
+
+.unlock-button:after {
+  content: '';
+}
+
+.time-container {
+  color: #FFFFFF; 
+  font-family: "Arial";
+  font-size: 15px;
+  font-weight: 400;
+  margin: 10px 0 0 0;
+  text-align: center;
+  
+  .time-counting {
+    color: #787878;
+    font-size: 18px;
+  }
+}
+
+.footer {
+  color: #FFFFFF; 
+  font-family: "Arial";
+  font-size: 11px;
+  font-weight: 400;
+  margin: 5px 0 0 0;
+  text-align: center;
+  
+  strong {
+    font-size: 13px;
+    font-style: italic;
+  }
+}
+
+#wheel {
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  
+  canvas {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    
+  }
+}
+
+.wheel-alert-temp {
+  .popup {
+    background: none;
+    width: 300px;
+    
+    .popup-head {
+       display: none;
+    }
+    
+    .popup-body {
+      padding: 0;
+      
+      img {
+        max-width: 300px;
+      }
+    }
+    
+    .popup-buttons {
+      padding: 0;
+      position: relative;
+      top: -85px;
+      
+      button {
+        background: url(images/enter-button.png) no-repeat;
+        border: none;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+form {
+  .row .col {
+    &:first-child {
+      color: #FFF;
+    }
+  }
+}
+
+.item-input {
+  background: transparent;
+  border: none;
+}
+.item-input input {
+  border: 1px solid gray;
+  color: #FFF;
+  padding: 0 7px;
+}
+.item-input input.ng-invalid {
+  border: 1px solid red;
+}
+
+
+.form-text {
+  color: #FFF;
+}
+
+.col-demo {
+  color: #FFF;
+  a {
+    color: #FFF;
+  }
+}

@@ -1,0 +1,23 @@
+<ion-view title="Prize Wheel" hide-nav-bar="true">
+  <ion-content>
+  <div>
+    <img src="images/prizewheel.png" style="display: block; margin: 5px auto; max-width:100px" />
+  </div>
+  <div id="wheel">
+    <wheel-canvas wheels-list="wheelsList" wheels-ids="wheelsIds" watch-me="wheelsList" wheelselected="wheelselected" ></wheel-canvas>
+  </div>
+  <div ng-hide="unlocked" class="unlock-container">
+    <button class="button unlock-button" ng-click="navOffer()"></button>
+  </div>
+  <div class="time-container">
+    <p style="margin-bottom: 5px;">Time remaining</p>
+    <p class="time-counting">{{ countDownMs | date:"mm:ss"}}</p>
+  </div>
+  <div class="footer" style="margin-bottom: 5px;">
+    <p style="margin-bottom: 0px;">You can enter a drawing for a chance to win the prize you land on. <strong>Official Rules</strong><br/>
+    This promotion is conducted exclusively by GrandPrizeNetwork™<br/>
+    No maker of any prize is a participant in or sponsor of this promotion. </p>
+  </div>
+  </ion-content>
+    
+</ion-view>

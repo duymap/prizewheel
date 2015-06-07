@@ -1,0 +1,76 @@
+<ion-view title="Submit Data" hide-back-button="true">
+  <ion-content>
+    <form name="register_form" novalidate="novalidate" ng-submit="register(register_form.$valid)"
+     style="margin: 0 auto; max-width: 400px;">
+      <div class="row">
+	      <div class="col col-33">
+	        <div class="col-demo"><a href="https://grandprizenetwork.com/privacy.html" target="_blank">Private Policy/</a></div>
+	      </div>
+	      <div class="col col-33">
+	        <div class="col-demo"><a href="https://www.grandprizenetwork.com/terms.html" target="_blank">Term of service</a></div>
+	      </div>
+	      <div class="col col-33">
+	        <div class="col-demo"><a href="https://www.grandprizenetwork.com/rules.html " target="_blank">Official rule</a></div>
+	      </div>
+	    </div>
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Name*:</div>
+        <div class="col col-75">
+          <label class="item item-input">
+            <input type="text" name="name" ng-model="form.name" >
+          </label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Email*:</div>
+        <div class="col col-75">
+          <label class="item item-input">
+            <input type="email" name="email" ng-model="form.email" ng-required="true">
+          </label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Mobile*:</div>
+        <div class="col col-75">
+          <label class="item item-input">
+            <input type="text" name="mobile" ng-model="form.mobile" ng-required="true">
+          </label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Age:</div>
+        <div class="col col-75">
+          <label class="item item-input">
+            <input type="text" name="age" ng-model="form.age" ng-required="true">
+          </label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Promos:</div>
+        <div class="col col-75">
+          <label class="checkbox" style="float: right;">
+            <input type="checkbox" name="mobile" ng-model="form.promos" value="1">
+          </label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="col" style="line-height: 45px;" class="form-text">Agreed:</div>
+        <div class="col col-75">
+          <label class="checkbox" style="float: right;">
+            <input type="checkbox" name="Agreed" ng-model="form.agreed" value="1">
+          </label>
+        </div>
+      </div>
+    
+      <div class="padding">
+        <input type="submit" value="Submit" class="submit caps btnSubmit btn-go">
+      </div>
+    </form>
+  </ion-content>
+  
+</ion-view>
